@@ -4,3 +4,4 @@ You can setup the code pretty simple just by running the  Release in a ide envio
 
 #CURRENTLY NON FUNCTIONAL
 (i just havent made it)
+This is my progress through making gamer AI!

@@ -1,3 +1,3 @@
 import torch
-x = torch.empty(2,2,2,2)
+x = torch.empty(2,2,2)
 print(x)

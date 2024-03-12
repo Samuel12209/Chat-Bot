@@ -19,11 +19,12 @@ train_dataset = torchvision.datasets.MNIST(root='./data', train=True,
 test_dataset = torchvision.datasets.MNIST(root='./data', train=False,
     transform=transforms.ToTensor())
 
-train_loader = torch.utils.data.DataLoader(dataset=train_dataset, batch_size=batch_size,shuffle=True)
+train_loader = torch.utils.data.DataLoader(dataset=train_dataset, batch_size=batch_size,
+    shuffle=True)
 
 test_loader = torch.utils.data.DataLoader(dataset=test_dataset, batch_size=batch_size,
     shuffle=False)
 
 example = iter(train_loader)
-samples, labels = example.next()
+samples, labels = next(example)
 print(samples.shape, labels.shape)

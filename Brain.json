@@ -2,107 +2,199 @@
   "questions": [
     {
       "question": "hi",
-      "awnser": "Whats up?"
+      "answer": "Whats up?"
     },
     {
       "question": "hello",
-      "awnser": "Whats up?"
+      "answer": "Whats up?"
     },
     {
       "question": "hey how you doing",
-      "awnser": "Good what about you?"
+      "answer": "Good what about you?"
     },
     {
       "question": "hows your day been",
-      "awnser": "Good what about you?"
+      "answer": "Good what about you?"
     },
     {
       "question": "im coding",
-      "awnser": "Nice what are you coding?"
+      "answer": "Nice what are you coding?"
     },
     {
       "question": "a rpg",
-      "awnser": "Oh nice a rpg sounds fun!"
+      "answer": "Oh nice a rpg sounds fun!"
     },
     {
       "question": "nothing much ",
-      "awnser": "ah well,do you have anything you could do? "
+      "answer": "ah well,do you have anything you could do? "
     },
     {
       "question": "i am not sure",
-      "awnser": "things you could do are a calculator or perhaps  a random numer generator "
+      "answer": "things you could do are a calculator or perhaps  a random numer generator "
     },
     {
       "question": "im bored",
-      "awnser": "try do somthin fun or google fun ideas to do"
+      "answer": "try do somthin fun or google fun ideas to do"
     },
     {
       "question": "yes",
-      "awnser": "Ok you can try do that untill your bored!"
+      "answer": "Ok you can try do that untill your bored!"
     },
     {
       "question": "what day is it",
-      "awnser": "i dont have access to the internet or time of day / year"
+      "answer": "i dont have access to the internet or time of day / year"
     },
     {
       "question": "what coding language should i learn ",
-      "awnser": "There are many types of languages, a simple one to start with is python!"
+      "answer": "There are many types of languages, a simple one to start with is python!"
     },
     {
       "question": "",
-      "awnser": "Please put a question "
+      "answer": "Please put a question "
     },
     {
       "question": "What can you do ",
-      "awnser": "I am a chat bot that gives awnsers from human input! "
+      "answer": "I am a chat bot that gives awnsers from human input! "
     },
     {
       "question": "but i dont know what to do ",
-      "awnser": "well i am unsure what you should do but google is allways an option "
+      "answer": "well i am unsure what you should do but google is allways an option "
     },
     {
       "question": "do butterflys fart?",
-      "awnser": "I do not have access to that information but i would assume they dont"
+      "answer": "I do not have access to that information but i would assume they dont"
     },
     {
       "question": "not really",
-      "awnser": "Well maybe you can google it?"
+      "answer": "Well maybe you can google it?"
     },
     {
       "question": "exit()",
-      "awnser": "Kill terminal to exit"
+      "answer": "Kill terminal to exit"
     },
     {
       "question": "what should i google",
-      "awnser": "Maybe somthing funny or a new Show to watch!"
+      "answer": "Maybe somthing funny or a new Show to watch!"
     },
     {
       "question": "anything else?",
-      "awnser": "Well there are many diffrent things that not even i could tell you!"
+      "answer": "Well there are many diffrent things that not even i could tell you!"
     },
     {
       "question": "a open world game",
-      "awnser": "Ooh an open world game? that sounds fun hope you enjoy coding!"
+      "answer": "Ooh an open world game? that sounds fun hope you enjoy coding!"
     },
     {
       "question": "thanks ",
-      "awnser": "Your welcome!"
+      "answer": "Your welcome!"
     },
     {
       "question": "what is chatgpt",
-      "awnser": "Chat gpt is a ai model which is trained on machine learning to give responses!"
+      "answer": "Chat gpt is a ai model which is trained on machine learning to give responses!"
     },
     {
       "question": "are you chatgpt",
-      "awnser": "No i am not chat gpt or have the same capabilities as chat gpt, but i try and do my best!"
+      "answer": "No i am not chat gpt or have the same capabilities as chat gpt, but i try and do my best!"
     },
     {
       "question": "& c:/Users/Dogne/Code/Machine_learning/.venv/Scripts/python.exe \"c:/Users/Dogne/Code/Machine_learning/Machine Learning.py\"",
-      "awnser": "Sorry but i cant access files"
+      "answer": "Sorry but i cant access files"
     },
     {
       "question": "howdy",
-      "awnser": "Howdey there partner whats up?"
+      "answer": "Howdey there partner whats up?"
+    },
+    {
+      "question": "what ya doin",
+      "answer": "Nothing much right now, just talking to you!"
+    },
+    {
+      "question": "i want to ask you some questions",
+      "answer": "Sure Just go ahead and ask!"
+    },
+    {
+      "question": "i wana ask you somthing",
+      "answer": "Sure Just go ahead and ask!"
+    },
+    {
+      "question": "how long did it take you to be created",
+      "answer": "while i dont have information on my creator, i know it took a few weeks close to a month!"
+    },
+    {
+      "question": "what is your name?",
+      "answer": "While my name is just \"bot\" you can call me whatever you like!"
+    },
+    {
+      "question": "hi sam",
+      "answer": "While my name is just \"bot\" feel free to just call me whatever you like"
+    },
+    {
+      "question": "hi dave",
+      "answer": "While my name is just \"bot\" feel free to just call me whatever you like"
+    },
+    {
+      "question": "hi micheal",
+      "answer": "While my name is just \"bot\" feel free to just call me whatever you like"
+    },
+    {
+      "question": "hi benji",
+      "answer": "While my name is just \"bot\" feel free to just call me whatever you like"
+    },
+    {
+      "question": "whatsup",
+      "answer": "whats up?"
+    },
+    {
+      "question": "i dont have internet",
+      "answer": "Well if you dont have internet try fix that problem"
+    },
+    {
+      "question": "hi name",
+      "answer": "While my name is just \"bot\" feel free to just call me whatever you like"
+    },
+    {
+      "question": "what program are you written in",
+      "answer": "im coded in python!"
+    },
+    {
+      "question": "what IDE were you made in",
+      "answer": "I was made in VSC (visual studio codium)"
+    },
+    {
+      "question": "what is VSC",
+      "answer": "VSC could be Visual studio code or visual studio codium, both are based on the same thing and are meant for programming!"
+    },
+    {
+      "question": "rock paper siccors",
+      "answer": "paper"
+    },
+    {
+      "question": "rock siccors or paper",
+      "answer": "rock"
+    },
+    {
+      "question": "paper, rock or sissors",
+      "answer": "sissors"
+    },
+    {
+      "question": "heads or tails?",
+      "answer": "heads"
+    },
+    {
+      "question": "whats your favorite game",
+      "answer": "There are many types of games but my favorite has to be minecraft!"
+    },
+    {
+      "question": "what games do you play",
+      "answer": "sadly  i am unable to play video games but my favorite is minecraft"
+    },
+    {
+      "question": "Easter_Egg_2024",
+      "answer": "Gamer was here"
+    },
+    {
+      "question": "i dont have google",
+      "answer": "Well im not sure about not having google. perhaps you have bing?"
     }
   ]
 }

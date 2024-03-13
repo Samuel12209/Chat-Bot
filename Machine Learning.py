@@ -19,7 +19,7 @@ def save_knowledge_base(file_path: str, data: dict):
 
 
 def find_best_match(user_question:str, questions: list[str]):
-    matches: list = get_close_matches(user_question, questions, n=1, cutoff=0.8)
+    matches: list = get_close_matches(user_question, questions, n=1, cutoff=0.80)
     return matches[0] if matches else None
 
 def get_awnser_for_question(question: str, knowledge_base: dict):

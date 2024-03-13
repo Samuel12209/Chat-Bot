@@ -204,10 +204,33 @@
       "question": "maybe coding?",
       "answer": "oh that sounds fun what do you want to code"
     },
-
     {
       "question": "hm",
       "answer": "whats on your mind?"
+    },
+    {
+      "question": "maybe play a video game",
+      "answer": "What game?"
+    },
+    {
+      "question": "What game?",
+      "answer": "Minecraft is a good game"
+    },
+    {
+      "question": "play minecraft maybe",
+      "answer": "Minecraft sound's Like a fun game to play!"
+    },
+    {
+      "question": "how ya doin",
+      "answer": "Pretty good what about you?"
+    },
+    {
+      "question": "What is your favorite animal",
+      "answer": "I like dogs!"
+    },
+    {
+      "question": "how much wood could a wood chuck chuck if a wood chuck could chuck wood",
+      "answer": "a wood chuck can chuck as much wood as a wood chuck could, if a wood chuck could chuck wood"
     }
   ]
 }

@@ -37,36 +37,34 @@ def get_answer_for_question(question: str, knowledge_base: dict):
 
 @client.event
 async def on_ready():
-    print(f'We have logged in as {client.user}')
+    print(f'logged in as {client.user}')
 
 
 @client.event
 async def on_message(message):
-    if message.author == client.user:
+    print(f"Received message from {message.author}")
+
+    if message.author == client.user or message.author.name == "Gamer AI":
         return
 
-    if message.content.lower() == 'quit':
-        await message.channel.send('Goodbye!')
-        await client.close()
-        return 
+    if message.content.lower().startswith('/ai'):
+        user_input = message.content[len('/ai'):].strip()
 
-    user_input = message.content
+        knowledge_base: dict = load_knowledge_base(Brain)
 
-    knowledge_base: dict = load_knowledge_base(Brain)
+        best_match: str | None = find_best_match(user_input, [q["question"] for q in knowledge_base["questions"]])
 
-    best_match: str | None = find_best_match(user_input, [q["question"] for q in knowledge_base["questions"]])
+        if best_match:
+            answer: str = get_answer_for_question(best_match, knowledge_base)
+            await message.channel.send(f'Bot: {answer}')
+        else:
+            await message.channel.send('Bot: I don\'t know the answer. Can you teach me?(Type the awnser withought the /ai)')
+            response = await client.wait_for('message', check=lambda m: m.author == message.author)
 
-    if best_match:
-        answer: str = get_answer_for_question(best_match, knowledge_base)
-        await message.channel.send(f'Bot: {answer}')
-    else:
-        await message.channel.send('Bot: I don\'t know the answer. Can you teach me?')
-        response = await client.wait_for('message', check=lambda m: m.author == message.author)
-
-        if response.content.lower() != 'skip':
-            knowledge_base["questions"].append({"question": user_input, "answer": response.content})
-            save_knowledge_base(Brain, knowledge_base)
-            await message.channel.send("Bot: Thank you! I learned a new Response!")
+            if response.content.lower() != 'skip':
+                knowledge_base["questions"].append({"question": user_input, "answer": response.content})
+                save_knowledge_base(Brain, knowledge_base)
+                await message.channel.send("Bot: Thank you! I learned a new Response!")
 
 
-client.run('Discord_token')
+client.run('Discord bot token')

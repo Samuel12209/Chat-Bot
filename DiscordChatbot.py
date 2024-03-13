@@ -5,6 +5,7 @@ from difflib import get_close_matches
 
 Brain = 'Brain.json'
 intents = discord.Intents.default()
+intents.message_content = True
 client = discord.Client(intents=intents)
 
 print("Hi, This is my Discord Chatbot")
@@ -58,7 +59,7 @@ async def on_message(message):
             answer: str = get_answer_for_question(best_match, knowledge_base)
             await message.channel.send(f'Bot: {answer}')
         else:
-            await message.channel.send('Bot: I don\'t know the answer. Can you teach me?(Type the awnser withought the /ai)')
+            await message.channel.send('Bot: I don\'t know the answer(Type the awnser or "skip" **without** "/ai")')
             response = await client.wait_for('message', check=lambda m: m.author == message.author)
 
             if response.content.lower() != 'skip':
@@ -67,4 +68,4 @@ async def on_message(message):
                 await message.channel.send("Bot: Thank you! I learned a new Response!")
 
 
-client.run('Discord bot token')
+client.run('bot_token')

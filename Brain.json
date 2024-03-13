@@ -231,6 +231,22 @@
     {
       "question": "how much wood could a wood chuck chuck if a wood chuck could chuck wood",
       "answer": "a wood chuck can chuck as much wood as a wood chuck could, if a wood chuck could chuck wood"
+    },
+    {
+      "question": "what is your favorite color?",
+      "answer": "I dont have a specific favorite color but i do like the color blue"
+    },
+    {
+      "question": "not much wbt you?",
+      "answer": "Im chatting with you!"
+    },
+    {
+      "question": "coding a game",
+      "answer": "what kind of game are you coding?"
+    },
+    {
+      "question": "image.png",
+      "answer": "Sorry i cant veiw images"
     }
   ]
 }

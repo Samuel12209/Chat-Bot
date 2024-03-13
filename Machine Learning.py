@@ -36,7 +36,7 @@ def chat_bot():
             print(f'bot: {awnser}')
         else:
             print('Bot: I don\'t know the answer. Can you teach me?')
-            new_answer: str = input('Type the answer or "skip" to skip ')
+            new_answer: str = input('Type the answer or "skip" to skip: ')
 
             if new_answer.lower() != 'skip':
                 knowledge_base["questions"].append({"question": user_input, "awnser": new_answer})

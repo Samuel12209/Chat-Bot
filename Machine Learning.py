@@ -1,6 +1,12 @@
 import json
+import time
 from difflib import get_close_matches
 Brain = 'Brain.json'
+print("Hi This is my Chatbot")
+print("The responses the bot gives might not allways be accurate.")
+print("-"*10)
+time.sleep(3)
+
 
 def load_knowledge_base(file_path: str):
     with open(file_path, 'r') as file:
@@ -13,7 +19,7 @@ def save_knowledge_base(file_path: str, data: dict):
 
 
 def find_best_match(user_question:str, questions: list[str]):
-    matches: list = get_close_matches(user_question, questions, n=1, cutoff=0.6)
+    matches: list = get_close_matches(user_question, questions, n=1, cutoff=0.8)
     return matches[0] if matches else None
 
 def get_awnser_for_question(question: str, knowledge_base: dict):

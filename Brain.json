@@ -1,5 +1,108 @@
 {
   "questions": [
-
+    {
+      "question": "hi",
+      "awnser": "Whats up?"
+    },
+    {
+      "question": "hello",
+      "awnser": "Whats up?"
+    },
+    {
+      "question": "hey how you doing",
+      "awnser": "Good what about you?"
+    },
+    {
+      "question": "hows your day been",
+      "awnser": "Good what about you?"
+    },
+    {
+      "question": "im coding",
+      "awnser": "Nice what are you coding?"
+    },
+    {
+      "question": "a rpg",
+      "awnser": "Oh nice a rpg sounds fun!"
+    },
+    {
+      "question": "nothing much ",
+      "awnser": "ah well,do you have anything you could do? "
+    },
+    {
+      "question": "i am not sure",
+      "awnser": "things you could do are a calculator or perhaps  a random numer generator "
+    },
+    {
+      "question": "im bored",
+      "awnser": "try do somthin fun or google fun ideas to do"
+    },
+    {
+      "question": "yes",
+      "awnser": "Ok you can try do that untill your bored!"
+    },
+    {
+      "question": "what day is it",
+      "awnser": "i dont have access to the internet or time of day / year"
+    },
+    {
+      "question": "what coding language should i learn ",
+      "awnser": "There are many types of languages, a simple one to start with is python!"
+    },
+    {
+      "question": "",
+      "awnser": "Please put a question "
+    },
+    {
+      "question": "What can you do ",
+      "awnser": "I am a chat bot that gives awnsers from human input! "
+    },
+    {
+      "question": "but i dont know what to do ",
+      "awnser": "well i am unsure what you should do but google is allways an option "
+    },
+    {
+      "question": "do butterflys fart?",
+      "awnser": "I do not have access to that information but i would assume they dont"
+    },
+    {
+      "question": "not really",
+      "awnser": "Well maybe you can google it?"
+    },
+    {
+      "question": "exit()",
+      "awnser": "Kill terminal to exit"
+    },
+    {
+      "question": "what should i google",
+      "awnser": "Maybe somthing funny or a new Show to watch!"
+    },
+    {
+      "question": "anything else?",
+      "awnser": "Well there are many diffrent things that not even i could tell you!"
+    },
+    {
+      "question": "a open world game",
+      "awnser": "Ooh an open world game? that sounds fun hope you enjoy coding!"
+    },
+    {
+      "question": "thanks ",
+      "awnser": "Your welcome!"
+    },
+    {
+      "question": "what is chatgpt",
+      "awnser": "Chat gpt is a ai model which is trained on machine learning to give responses!"
+    },
+    {
+      "question": "are you chatgpt",
+      "awnser": "No i am not chat gpt or have the same capabilities as chat gpt, but i try and do my best!"
+    },
+    {
+      "question": "& c:/Users/Dogne/Code/Machine_learning/.venv/Scripts/python.exe \"c:/Users/Dogne/Code/Machine_learning/Machine Learning.py\"",
+      "awnser": "Sorry but i cant access files"
+    },
+    {
+      "question": "howdy",
+      "awnser": "Howdey there partner whats up?"
+    }
   ]
 }

@@ -4,11 +4,7 @@ import time
 from difflib import get_close_matches
 
 Brain = 'Brain.json'
-
 intents = discord.Intents.default()
-intents.typing = False
-intents.presences = False
-
 client = discord.Client(intents=intents)
 
 print("Hi, This is my Discord Chatbot")
@@ -52,6 +48,7 @@ async def on_message(message):
     if message.content.lower() == 'quit':
         await message.channel.send('Goodbye!')
         await client.close()
+        return 
 
     user_input = message.content
 
@@ -59,12 +56,11 @@ async def on_message(message):
 
     best_match: str | None = find_best_match(user_input, [q["question"] for q in knowledge_base["questions"]])
 
-
     if best_match:
         answer: str = get_answer_for_question(best_match, knowledge_base)
         await message.channel.send(f'Bot: {answer}')
     else:
-        await message.channel.send('Bot: I don\'t know the answer. Can you teach me?(Type the awnser or "skip" to skip)')
+        await message.channel.send('Bot: I don\'t know the answer. Can you teach me?')
         response = await client.wait_for('message', check=lambda m: m.author == message.author)
 
         if response.content.lower() != 'skip':
@@ -73,4 +69,4 @@ async def on_message(message):
             await message.channel.send("Bot: Thank you! I learned a new Response!")
 
 
-client.run('Your Discord Token')
+client.run('Discord_token')

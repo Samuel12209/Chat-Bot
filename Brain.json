@@ -195,6 +195,19 @@
     {
       "question": "i dont have google",
       "answer": "Well im not sure about not having google. perhaps you have bing?"
+    },
+    {
+      "question": "wbt you",
+      "answer": "nothing much"
+    },
+    {
+      "question": "maybe coding?",
+      "answer": "oh that sounds fun what do you want to code"
+    },
+
+    {
+      "question": "hm",
+      "answer": "whats on your mind?"
     }
   ]
 }

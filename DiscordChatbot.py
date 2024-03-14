@@ -64,8 +64,9 @@ async def on_message(message):
 
             if response.content.lower() != 'skip':
                 knowledge_base["questions"].append({"question": user_input, "answer": response.content})
+                time.sleep(1)
                 save_knowledge_base(Brain, knowledge_base)
                 await message.channel.send("Bot: Thank you! I learned a new Response!")
 
 
-client.run('bot_token')
+client.run('discord token')

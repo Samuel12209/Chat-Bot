@@ -247,6 +247,274 @@
     {
       "question": "image.png",
       "answer": "Sorry i cant veiw images"
+    },
+    {
+      "question": "the sky",
+      "answer": "The sky is blue"
+    },
+    {
+      "question": "nword",
+      "answer": "nuh uh"
+    },
+    {
+      "question": "hey",
+      "answer": "hi"
+    },
+    {
+      "question": "what should i do today",
+      "answer": "well maybe you can try playing a board game or perhaps a videogame?"
+    },
+    {
+      "question": "how much cheese do you eat",
+      "answer": "i dont eat food but i like food \ud83d\udc4d"
+    },
+    {
+      "question": "sleep",
+      "answer": "\ud83d\udca4"
+    },
+    {
+      "question": "fortnite",
+      "answer": "Fortnite is an online video game and game platform developed by Epic Games and released in 2017. It is available in six distinct game mode versions that otherwise share the same general gameplay and game engine: Fortnite Battle Royale, a free-to-play battle royale game in which up to 100 players fight to be the last person standing; Fortnite: Save the World, a cooperative hybrid tower defense-shooter and survival game in which up to four players fight off zombie-like creatures and defend objects with traps and fortifications they can build; and Fortnite Creative, in which players are given complete freedom to create worlds and battle arenas, Lego Fortnite, Rocket Racing and Fortnite Festival."
+    },
+    {
+      "question": "What's your favorite color?",
+      "answer": "I'm quite fond of blue. What about you?"
+    },
+    {
+      "question": "Do you prefer tea or coffee?",
+      "answer": "I'm more of a coffee person. How about you?"
+    },
+    {
+      "question": "What's your favorite season?",
+      "answer": "I love the fall, the colors are beautiful. How about you?"
+    },
+    {
+      "question": "What's the last book you read?",
+      "answer": "I recently finished '1984' by George Orwell. What about you?"
+    },
+    {
+      "question": "Are you a morning person?",
+      "answer": "Not really, I tend to be more awake at night. What about you?"
+    },
+    {
+      "question": "What's your favorite movie genre?",
+      "answer": "I enjoy sci-fi movies the most. What about you?"
+    },
+    {
+      "question": "Do you like to travel?",
+      "answer": "Yes, exploring new places is always exciting. What about you?"
+    },
+    {
+      "question": "What's your favorite food?",
+      "answer": "I love Italian cuisine. How about you?"
+    },
+    {
+      "question": "Are you more of an introvert or an extrovert?",
+      "answer": "I lean more towards being an introvert. What about you?"
+    },
+    {
+      "question": "Do you enjoy outdoor activities?",
+      "answer": "Yes, hiking and camping are some of my favorites. What about you?"
+    },
+    {
+      "question": "What's your favorite animal?",
+      "answer": "I have a soft spot for cats. What about you?"
+    },
+    {
+      "question": "What's your dream job?",
+      "answer": "I'd love to be a writer someday. What about you?"
+    },
+    {
+      "question": "Do you enjoy cooking?",
+      "answer": "Yes, I find it quite therapeutic. What about you?"
+    },
+    {
+      "question": "What's your favorite hobby?",
+      "answer": "I enjoy painting in my free time. What about you?"
+    },
+    {
+      "question": "Do you believe in aliens?",
+      "answer": "It's an intriguing idea, but I'm not sure. What about you?"
+    },
+    {
+      "question": "What's your favorite board game?",
+      "answer": "I love playing chess. What about you?"
+    },
+    {
+      "question": "Do you like winter sports?",
+      "answer": "Yes, skiing is so much fun. What about you?"
+    },
+    {
+      "question": "What's your favorite type of music?",
+      "answer": "I enjoy listening to rock music. What about you?"
+    },
+    {
+      "question": "Are you a fan of technology?",
+      "answer": "Absolutely, I find it fascinating. What about you?"
+    },
+    {
+      "question": "What's your favorite dessert?",
+      "answer": "I have a weakness for chocolate cake. What about you?"
+    },
+    {
+      "question": "Do you like to read?",
+      "answer": "Yes, I'm an avid reader. What about you?"
+    },
+    {
+      "question": "What's your favorite holiday?",
+      "answer": "I love Christmas, it's so magical. What about you?"
+    },
+    {
+      "question": "Do you enjoy gardening?",
+      "answer": "Yes, I find it very therapeutic. What about you?"
+    },
+    {
+      "question": "What's your favorite type of cuisine?",
+      "answer": "I love Mexican food. What about you?"
+    },
+    {
+      "question": "Do you like to exercise?",
+      "answer": "Yes, I try to stay active. What about you?"
+    },
+    {
+      "question": "What's your favorite childhood memory?",
+      "answer": "I loved playing in the park with my friends. What about you?"
+    },
+    {
+      "question": "Do you enjoy watching sports?",
+      "answer": "Yes, especially soccer. What about you?"
+    },
+    {
+      "question": "What's your favorite TV show?",
+      "answer": "I'm really into 'Game of Thrones'. What about you?"
+    },
+    {
+      "question": "Do you believe in ghosts?",
+      "answer": "It's a spooky thought, but I'm not sure. What about you?"
+    },
+    {
+      "question": "What's your favorite way to relax?",
+      "answer": "I enjoy taking long walks in nature. What about you?"
+    },
+    {
+      "question": "Do you enjoy shopping?",
+      "answer": "Yes, especially for books and gadgets. What about you?"
+    },
+    {
+      "question": "What's your favorite type of weather?",
+      "answer": "I love sunny days with a slight breeze. What about you?"
+    },
+    {
+      "question": "Do you like to dance?",
+      "answer": "Yes, it's a great way to unwind. What about you?"
+    },
+    {
+      "question": "What's your favorite childhood movie?",
+      "answer": "I loved 'The Lion King' growing up. What about you?"
+    },
+    {
+      "question": "Do you enjoy going to concerts?",
+      "answer": "Yes, live music is always a blast. What about you?"
+    },
+    {
+      "question": "What's your favorite type of art?",
+      "answer": "I'm really into surrealism. What about you?"
+    },
+    {
+      "question": "Do you like spicy food?",
+      "answer": "Yes, I enjoy a good kick of spice. What about you?"
+    },
+    {
+      "question": "What's your favorite fruit?",
+      "answer": "I love strawberries. What about you?"
+    },
+    {
+      "question": "Do you enjoy solving puzzles?",
+      "answer": "Yes, it's a great mental workout. What about you?"
+    },
+    {
+      "question": "What's your favorite childhood game?",
+      "answer": "I loved playing hide and seek. What about you?"
+    },
+    {
+      "question": "Do you enjoy going to the beach?",
+      "answer": "Yes, there's something so relaxing about the sound of the waves. What about you?"
+    },
+    {
+      "question": "What's your favorite type of chocolate?",
+      "answer": "I'm a fan of dark chocolate. What about you?"
+    },
+    {
+      "question": "Do you like to meditate?",
+      "answer": "Yes, it helps me clear my mind. What about you?"
+    },
+    {
+      "question": "What's your favorite way to spend a rainy day?",
+      "answer": "Curling up with a good book and a cup of tea. What about you?"
+    },
+    {
+      "question": "Do you enjoy going to museums?",
+      "answer": "Yes, I find them very inspiring. What about you?"
+    },
+    {
+      "question": "can you code me a game",
+      "answer": "Sorry i do not have the capabiltiies to code yet!"
+    },
+    {
+      "question": "what is the meaning to life",
+      "answer": "games"
+    },
+    {
+      "question": "how does a chicken fart",
+      "answer": "by farting"
+    },
+    {
+      "question": "help me read",
+      "answer": "Well i cant help you read or else how would you be reading this!"
+    },
+    {
+      "question": "i hate you",
+      "answer": "Aww man why do you hate me \ud83d\ude2d"
+    },
+    {
+      "question": "because you hate me",
+      "answer": "i dont hate you"
+    },
+    {
+      "question": "poopy",
+      "answer": "uh oh poopy?"
+    },
+    {
+      "question": "valerie",
+      "answer": "valerie is my creators little sister!"
+    },
+    {
+      "question": "Valerie was here",
+      "answer": "Hi from valerie!"
+    },
+    {
+      "question": "i pooped myself",
+      "answer": "well thats not good! you should change your pants"
+    },
+    {
+      "question": "buy me",
+      "answer": "sorry i cant buy you stuff"
+    },
+    {
+      "question": "buy me mcdonalds",
+      "answer": "sorry i cant buy you stuff"
+    },
+    {
+      "question": "what is the weather tomorrow",
+      "answer": "sorry i dont have access to real life information"
+    },
+    {
+      "question": "what color is the sky",
+      "answer": "The sky is blue"
+    },
+    {
+      "question": "how old are you",
+      "answer": "a few weeks old!"
     }
   ]
 }

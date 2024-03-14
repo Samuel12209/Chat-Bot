@@ -7,6 +7,6 @@ machine learning is for chatting in your ide, the discord version is for a serve
 
 You can train this bow however you like and adjust its responses in brain.json
 it will grab the most accurate awnser and respond to your questions depending on the responses you made
+feel free to adjust the accuracy more and more to get good responses
 
-(i just havent made it)
 This is my progress through making Machine learning!

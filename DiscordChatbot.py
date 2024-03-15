@@ -3,6 +3,7 @@ import json
 import time
 from difflib import get_close_matches
 
+training = 1
 Brain = 'Brain.json'
 intents = discord.Intents.default()
 intents.message_content = True
@@ -59,14 +60,19 @@ async def on_message(message):
             answer: str = get_answer_for_question(best_match, knowledge_base)
             await message.channel.send(f'Bot: {answer}')
         else:
-            await message.channel.send('Bot: I don\'t know the answer(Type the awnser or "skip" **without** "/ai")')
-            response = await client.wait_for('message', check=lambda m: m.author == message.author)
+            if training == 1:
+                await message.channel.send('Bot: I don\'t know the answer(Type the awnser or "skip" **without** "/ai")')
+                response = await client.wait_for('message', check=lambda m: m.author == message.author)
 
-            if response.content.lower() != 'skip':
-                knowledge_base["questions"].append({"question": user_input, "answer": response.content})
-                time.sleep(1)
-                save_knowledge_base(Brain, knowledge_base)
-                await message.channel.send("Bot: Thank you! I learned a new Response!")
+            if training == 1:
+                if response.content.lower() != 'skip':
+                    knowledge_base["questions"].append({"question": user_input, "answer": response.content})
+                    time.sleep(1)
+                    save_knowledge_base(Brain, knowledge_base)
+                    await message.channel.send("Bot: Thank you! I learned a new Response!")
+            
+            if training == 0:
+                await message.channel.send('Sorry i dont understand your question, Please rephrase it or suggest it to (.thegaminggamer)')
 
 
-client.run('discord token')
+client.run('Discord_Token')
